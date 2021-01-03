@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Rammsite gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--встроенные стили-->
+<style>body { text-align: center; } .gallery { width: 1000px; margin: auto; margin-top: 100px; position: relative; z-index: -1;} .gallery li { list-style: none; float: left; margin: 5px; z-index: -1;} a { color: #000000; }</style>
+<!-- подключение css-документов -->
+<link rel = "stylesheet" type = "text/css"  href = "css_docs/general_style.css" />
+<link rel = "stylesheet" type = "text/css"  href = "css_docs/menu_0.css" />
+</head>
+<body>
+			<!--ЛЕВОЕ ПОЛЕ ВОЗВРАТА ВВЕРХ СТРАНИЦЫ-->
+			<div class = "holder">
+                    <a href = "#top">
+                    <div class = "hide_block">
+                        <img src = "pictures/ptr.png" width = "70%">
+                         <p style = "padding-bottom: 1px; color: gray;">Наверх</p>
+                         <img src = "pictures/ptr.png" width = "70%">
+                    </div>
+                    </a>
+                </div>
+    <div class = "logo_and_menu" name = "top">
+        <ul id="nav">
+            <li>
+                <a href="index.html" title="Вернуться на главную страницу">Rammsite</a>
+            </li>
+            <li>
+                <a href="#" title="Контент">Содержание</a>
+                <ul>
+                    <li><a href="rammstory.html">История в очерках</a></li>
+                    <li><a href="art_quality.html">Творчество</a></li>
+                    <li><a href="members_story.html">Путь музыкантов</a></li>
+                    <li><a href="on_stage.html">На сцене</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="discography.html" title="Наводка на аудио">Дискография</a>
+            </li>
+            <li>
+                <a href="#" title="Проекты семейства">Проекты семейства</a>
+                <ul>
+                    <li><a href="emigrate.html">Emigrate</a></li>
+                    <li><a href="lindemann.html">Деятельность Тилля</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="gallery.html" title="Просмотр изображений" style = "background-color: rgba(107,12,54,0.75);">Галерея</a>
+            </li>
+        </ul>
+    </div>
+<ul class = "gallery">   
+<li><a href="images/1.jpg" class="flipLightBox"><img src="images/1.jpg" height="210" alt="Image 1" /><span>Till Lindemann</span></a></li>
+<li><a href="images/2.jpg" class="flipLightBox"><img src="images/2.jpg" height="210" alt="Image 2" /><span>Richard Z. Kruspe</span></a></li>
+<li><a href="images/3.jpg" class="flipLightBox"><img src="images/3.jpg" height="210" alt="Image 3" /><span>Paul Heiko Landers</span></a></li>
+<li><a href="images/4.jpg" class="flipLightBox"><img src="images/4.jpg" height="210" alt="Image 4" /><span>Oliver Riedel</span></a></li>
+<li><a href="images/5.jpg" class="flipLightBox"><img src="images/5.jpg" height="210" alt="Image 5" /><span>Christian Flake Lorenz</span></a></li>
+<li><a href="images/6.jpg" class="flipLightBox"><img src="images/6.jpg" height="210" alt="Image 6" /><span>Christoph Schneider</span></a></li>
+<li><a href="images/7.jpg" class="flipLightBox"><img src="images/7.jpg" width ="1000" alt="Image 7" /><span>Rammstein</span></a></li>
+<li><a href="images/8.jpg" class="flipLightBox"><img src="images/8.jpg" height="240" alt="Image 8" /><span>Rammstein</span></a></li>
+<li><a href="images/9.jpg" class="flipLightBox"><img src="images/9.jpg" height="240" alt="Image 9" /><span>Rammstein</span></a></li>
+<li><a href="images/10.jpg" class="flipLightBox"><img src="images/10.jpg" height="240" alt="Image 10" /><span>Rammstein</span></a></li>
+</ul>
+<!-- подключение js-документов -->
+<script src="./js_scripts/jquery.js"></script> <!-- библиотека jquery -->
+<script src ="js_scripts/menu_glue_0.js"></script> <!-- скрипт для приклеивания навигации к верху -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js_scripts//fliplightbox.min.js"></script>
+<script>$('body').flipLightBox()</script>
+</body>
+</html>

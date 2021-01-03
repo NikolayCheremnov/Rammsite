@@ -1,0 +1,46 @@
+/*стили для моргающего заголовка*/
+#blink {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    font-size: 450%;
+    color: rgb(255, 200, 50);
+    margin-bottom: 50px;
+}
+#blink {
+	-webkit-animation: blink 2s linear infinite; 
+	animation: blink 2s linear infinite; 
+	font-weight: bold; 
+}
+
+@-webkit-keyframes blink { 
+	0% { color: rgb(214, 72, 28); }
+	50% { color: rgb(165, 103, 32); }
+	100% { color: rgb(214, 72, 28); }
+}
+
+@keyframes blink {  
+	0% { color: rgb(214, 72, 28); }
+	50% { color: rgb(165, 103, 32); }
+	100% { color: rgb(214, 72, 28); }
+}
+
+/*оформление сопуствующих тексту изображений*/
+img {
+    margin-bottom: 20px;
+    border: gray 3px solid;
+    border-radius: 5%;
+}
+
+.img_left {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.img_right{
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}

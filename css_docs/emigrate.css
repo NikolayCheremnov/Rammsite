@@ -1,0 +1,82 @@
+img {
+    margin-bottom: 20px;
+    border: gray 3px solid;
+    border-radius: 5%;
+}
+#img_1 { 
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+#img_2 { 
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+#img_3{
+    margin-left: 0px;
+    margin-right: 0px;
+    float: bottom;
+    border: 0;
+}
+
+div.about_emgrt {
+    border: white 1px solid;
+    margin-bottom: 50px;
+}
+
+.about_emgrt > p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*стили внешних ссылок*/
+div.external_links {
+    color: #B0C4DE; /*цвет текста*/
+    border-top: white 3px solid;
+    padding-top: 10px;
+}
+
+#blink {
+    float: bottom;
+    text-align: left; /*заголовок по центру*/
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*стили для моргающего заголовка*/
+#blink {
+	-webkit-animation: blink 2s linear infinite; 
+	animation: blink 2s linear infinite; 
+	font-weight: bold; 
+	color: #F00; 
+}
+
+@-webkit-keyframes blink { 
+	0% { color: #B0C4DE; }
+	50% { color: white; }
+	100% { color: #B0C4DE; }
+}
+
+@keyframes blink {  
+	0% { color: #B0C4DE; }
+	50% { color: white; }
+	100% { color: #B0C4DE; }
+}
+
+.external_links > div {
+    float: left; /*обтекание блоков слева*/
+    width: 50%;
+}
+
+a {
+    color: #B0C4DE; /*заданный цвет для ссылок*/
+}
+
+.external_links {
+    margin-top: 20px;
+    list-style-type: none;
+}

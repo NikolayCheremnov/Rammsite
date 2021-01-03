@@ -1,0 +1,73 @@
+/*заголовок тематического блока*/
+#about_project_h2{
+    text-align: right; /*выравнивание*/
+    color: darkred; /*цвет*/
+    margin-right: 50px; /*внешние отуступы*/
+    margin-bottom: 0;
+}
+
+/*стили тематического блока*/
+#black_block{
+    background-color: black; /*черный фон*/
+    margin-left: auto;  /*выравнивание по поляи*/
+    margin-right: auto;
+    padding: 10px; /*внутренние отсутпы со всех сторон*/
+    height: 251px; /*временно фиксированная высота*/
+    font-size: 14px; /*заданный размер шрифта*/
+}
+
+#black_block > img {
+    float: left; /*обтекание тематической картинки слева*/
+    margin: 5px; /*внешние отступы*/
+}
+
+/*стили внутренних ссылок*/
+div.internal_links {
+    float: bottom; /*обтекание снизу*/
+    margin-top: 50px; /*отступ сверху*/
+}
+
+div.internal_img_link {
+    margin: 10px; /*отступы от картинки*/
+    float: left; /*обтекание слева*/
+    color: #B0C4DE; /*цвет подписи-текста*/
+    width: 30%; /*относительная ширина (высота автоматически)*/
+    text-align: center; /*выравнивание подписи по центру*/
+}
+
+.internal_img_link > h3 {
+    color: darkred; /*цвет нижних подзаголовков*/
+    text-align: center; /*выравнивание по центру*/
+}
+
+.internal_img_link > img {
+    border: 3px solid gray; /*обрамление изображений*/
+    border-radius: 50px; /*загругление углов*/
+    height: 150px; /*с временно-фиксированной высотой*/
+}
+
+/*стили внешних ссылок*/
+div.external_links {
+    color: #B0C4DE; /*цвет текста*/
+    margin-top: 350px; /*отступ сверху*/
+}
+
+.external_links > h2 {
+    float: bottom;
+    text-align: center; /*заголовок по центру*/
+}
+.external_links > div {
+    float: left; /*обтекание блоков слева*/
+    width: 50%;
+}
+
+a {
+    color: #B0C4DE; /*заданный цвет для ссылок*/
+}
+
+
+
+
+
+
+  

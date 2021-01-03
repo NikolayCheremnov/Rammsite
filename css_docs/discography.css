@@ -1,0 +1,59 @@
+/* оформление локальной навигации */
+#local_nav {
+    margin-bottom: 20px;
+}
+ul.hr {
+    text-align: right;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 2px solid gray; /* Рамка вокруг текста */
+    border-radius: 5%;
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+.h2_part {
+    position: relative;
+    width: 100%;
+    font-size: 200%;
+    color: white;
+    border-bottom: 3px darkred solid;
+    margin-bottom: 40px;
+}
+ul > a {
+    color: white;
+}
+ul > a:hover{
+    font-size: 100%;
+}
+
+/*оформление сопуствующих тексту изображений*/
+img {
+    margin-bottom: 20px;
+    border: gray 3px solid;
+    border-radius: 5%;
+}
+
+.img_left {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.img_right{
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+/*стили информации об альбомах */
+.album_inf > p {
+    margin-bottom: 5px;
+}
+.h3_inf {
+    float: left;
+}

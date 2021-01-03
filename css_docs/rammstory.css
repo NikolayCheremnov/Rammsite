@@ -1,0 +1,42 @@
+/*оформление сопуствующих тексту изображений*/
+img {
+    margin-bottom: 20px;
+    border: gray 3px solid;
+    border-radius: 5%;
+}
+
+.img_left {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.img_right{
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.h2_part {
+    position: relative;
+    width: 100%;
+    font-size: 200%;
+    color: white;
+    border-bottom: 3px darkred solid;
+    margin-bottom: 40px;
+}
+
+.external_links > div {
+    float: left; /*обтекание блоков слева*/
+    width: 50%;
+}
+
+a {
+    color: #B0C4DE; /*заданный цвет для ссылок*/
+}
+
+.external_links {
+    margin-top: 20px;
+    list-style-type: none;
+}
